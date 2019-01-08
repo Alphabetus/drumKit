@@ -1,0 +1,57 @@
+h1{
+ color: #ffc107;
+ text-align: center;
+ font-size: 3em;
+ max-height: 10vh;
+ padding-top: 5vh;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000000;
+  border-top: black 1px solid;
+  color: #ffc107;
+  font-size: 0.7em;
+}
+
+.desc{
+  text-align: center;
+  font-size: 0.9em;
+  padding-bottom: 0;
+  margin: 0;
+  color: #ffc107;
+}
+
+.kitRow{
+  min-height: 90vh;
+}
+
+.wrapper{
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.key{
+  text-align: center;
+  transition: all 0.09s ease-in-out;
+  border-radius: 0;
+}
+
+.on {
+  transform: scale(0.99);
+  color: black;
+  background-color: #ffc107;
+  border-color: black;
+}
+
+a{
+  color: #ffc107;
+}
+
+a:hover{
+  color: #f9e095;
+  text-decoration: none;
+}
